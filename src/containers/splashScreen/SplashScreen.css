@@ -1,0 +1,17 @@
+.splash-container {
+  @apply flex flex-col justify-center items-center min-h-screen;
+}
+
+.splash-animation-container {
+  @apply h-[50vh];
+}
+
+.splash-title-container {
+  @apply text-[2.5rem] no-underline;
+}
+
+.splash-title {
+  @apply font-agustina font-bold px-5;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+}
